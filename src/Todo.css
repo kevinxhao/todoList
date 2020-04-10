@@ -65,3 +65,62 @@ h4{
 #submit:hover {
     background-color: navy;
 }
+
+
+.check{
+  float: left;
+   margin-right: 10px;
+   width: 30px;
+   height: 30px;
+}
+.check:hover {
+    background-color: navy;
+}
+
+.completed p {
+    text-decoration: line-through;
+    color: gray;
+}
+.completed {
+  background-color: lightgray;
+}
+
+
+
+.delete {
+    float: right;
+    font-size: 20px;
+    padding: 5px 10px;
+    width: 30px;
+    background-color: red;
+    color: white;
+}
+
+.delete:hover {
+    background-color: crimson;
+}
+
+.todo {
+    font-size: 30px;
+    padding: 20px 0px;
+    font-family: sans-serif;
+    border-bottom: 1px solid gray;
+}
+.todo:hover{
+  background: skyblue;
+}
+.todo:last-of-type {
+    border-bottom: none;
+}
+
+p {
+  font-family: sans-serif;
+    display: inline-block;
+    margin: 0px;
+}
+
+button {
+    background: none;
+    position: relative;
+
+}
